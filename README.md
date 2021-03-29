@@ -1,4 +1,5 @@
 # Vorlage für Hausarbeiten an der Leibniz FH in Latex
+Diese Vorlage verwendet Markdown und biber als Quellenverwaltung.
 
 ## Zitieren
 Es sollte `\footcite` verwendet werden.
