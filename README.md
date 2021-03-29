@@ -1,5 +1,9 @@
 # Vorlage für Hausarbeiten an der Leibniz FH in Latex
 
+## Zitieren
+Es sollte `\footcite` verwendet werden.
+
+## Latex Konfiguration
 Mit der latex-workshop erweiterung für vs code sollte folgende konfiguration verwendet werden: 
 
 ```json
