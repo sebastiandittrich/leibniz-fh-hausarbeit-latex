@@ -1,6 +1,6 @@
 # Vorlage für Hausarbeiten an der Leibniz FH in Latex
 
-Mit der latex-workshop erweiterung sollte folgende konfiguration verwendet werden: 
+Mit der latex-workshop erweiterung für vs code sollte folgende konfiguration verwendet werden: 
 
 ```json
 "latex-workshop.latex.recipes": [
