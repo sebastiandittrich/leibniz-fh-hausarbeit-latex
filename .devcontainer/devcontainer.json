@@ -1,0 +1,39 @@
+{
+    "name": "Latex",
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "pandoc",
+    "runServices": [
+        "pandoc"
+    ],
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/project",
+    "postCreateCommand": "",
+    "extensions": [
+        "notzaki.pandocciter",
+        "phr0s.bib",
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-german",
+    ],
+    "settings": {
+        "cSpell.words": [
+            "abstrahierungsebene",
+            "cloudprovider",
+            "containerisierung",
+            "followern",
+            "hrungen",
+            "krypto",
+            "kryptow",
+            "kryptowährungen",
+            "kubelet",
+            "kubernetes",
+            "praxisreflektion",
+            "rbac",
+            "umgebungsvariablen"
+        ],
+        "editor.padding.top": 1000,
+        "editor.cursorSurroundingLines": 100,
+        "zenMode.centerLayout": true,
+    }
+}

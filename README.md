@@ -1,43 +1,14 @@
 # Vorlage für Hausarbeiten an der Leibniz FH in Latex
-Diese Vorlage verwendet Markdown für den Inhalt und biber als Quellenverwaltung.
 
-## Zitieren
-Es sollte `\footcite` verwendet werden.
+Hausabeiten für die Leibniz FH mit Pandoc und Latex schreiben.
 
-## Latex Konfiguration
-Mit der latex-workshop erweiterung für vs code sollte folgende konfiguration verwendet werden: 
+## Setup
+1. Auf dem Titelblatt alle persönlichen (_kursiv geschriebenen_) Informationen ergänzen
+1. Unterschrift unter `src/assets/Unterschrift.png` hinzufügen
 
-```json
-"latex-workshop.latex.recipes": [
-    {
-        "name": "Xelatex biber",
-        "tools": [
-            "xelatex",
-            "biber",
-            "xelatex",
-        ]
-    },
-],
-"latex-workshop.latex.tools": [
-    {
-        "name": "xelatex",
-        "command": "xelatex",
-        "args": [
-            "-synctex=1",
-            "--shell-escape",
-            "-interaction=nonstopmode",
-            "-file-line-error",
-            "%DOC%"
-        ],
-        "env": {}
-    },
-    {
-        "name": "biber",
-        "command": "biber",
-        "args": [
-            "%DOCFILE%"
-        ],
-        "env": {}
-    },
-],
-```
+# Nutzung
+Es steht ein Development Container unter `.devcontainer/` bereit, in dem alle notwendigen Programme installiert sind. Um das Dokument erstellen zu lassen, kann in VS Code der Build Task unter `.vscode/tasks.json` verwendet werden.
+
+# Funktionen
+- Formatierung mit Zeilenabständen, Schriftart und Rändern nach den Vorgaben im Studienbuch
+- Format der Quellenangaben nach den Vorgaben im Studienbuch

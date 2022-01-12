@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  pandoc:
+    build: .
+    volumes:
+      - "../:/project"
+    environment:
+      - TZ=
+    entrypoint: sh -c "while sleep 1000; do :; done"
