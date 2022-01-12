@@ -6,7 +6,7 @@
         {
             "label": "Build PDF",
             "type": "shell",
-            "command": "pandoc --pdf-engine xelatex --citeproc --csl ./src/assets/leibniz-fh-hannover.csl -o ./dist/Hausarbeit-Krypto-Sebastian-Dittrich.pdf ./src/main.md",
+            "command": "pandoc --pdf-engine xelatex --citeproc --csl ./src/assets/leibniz-fh-hannover.csl -o ./dist/Hausarbeit-Thema-Name.pdf ./src/main.md",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
