@@ -57,7 +57,7 @@ im Fach *Fach* im *WiSe/SoSe* *Jahr*
 
 *PLZ* *Stadt*
 
-Matr.-Nr. *44327*
+Matr.-Nr. *Matrikelnummer*
 
 E-Mail-Adresse: *Mail*
 
